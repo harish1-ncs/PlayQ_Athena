@@ -1,7 +1,0 @@
-{
-    "packs": [
-        "playq-copilot-default-web.json",
-        "playq-copilot-default-api.json",
-        "playq-copilot-default-comm.json"
-    ]
-}
