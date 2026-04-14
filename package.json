@@ -1,0 +1,26 @@
+{
+  "name": "playq-project",
+  "version": "0.2.20",
+  "private": true,
+  "scripts": {
+    "pretest": "echo TEST PRETEST",
+    "test": "playq",
+    "test:cucumber": "playq --runner cucumber",
+    "generate:report": "npx ts-node ./node_modules/@playq/core/src/helper/report/customiseReport.ts && npx ts-node ./node_modules/@playq/core/src/helper/report/report.ts"
+  },
+  "dependencies": {
+    "@playq/core": "file:C://Users//Public//Documents//Programs//playq-core-0.2.92.tgz",
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.53.1",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^3.3.0",
+    "fs-extra": "^11.3.2",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
